@@ -4,4 +4,7 @@
 
 .container {
   display: grid;
+  gap: 20px;
+  border: 5px solid #0ff;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
